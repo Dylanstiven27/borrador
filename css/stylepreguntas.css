@@ -10,18 +10,26 @@ body{
     background-image: url(../images/imagen\ del\ body\ de\ preguntas.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 #pregunta{
-    width: 80vw;
+    width: 60vw;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
     background: #ECF0F1 ;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
 
 .opcion{
-    width: 70vw;
+    width: 60vw;
     background: #ECF0F1 ;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
